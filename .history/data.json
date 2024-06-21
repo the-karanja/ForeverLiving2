@@ -1,0 +1,65 @@
+{
+    "products": [
+      {
+        "name": "Forever Multi-Maca",
+        "images": [
+          "https://example.com/multi-maca1.jpg",
+          "https://example.com/multi-maca2.jpg",
+          "https://example.com/multi-maca3.jpg",
+          "https://example.com/multi-maca4.jpg"
+        ],
+        "price": 29.99,
+        "availability": true,
+        "description": "Forever Multi-Maca combines Peruvian Maca with other powerful herbs. Supports energy and stamina. Enhances reproductive health for men and women."
+      },
+      {
+        "name": "Forever Calcium",
+        "images": [
+          "https://example.com/calcium1.jpg",
+          "https://example.com/calcium2.jpg",
+          "https://example.com/calcium3.jpg",
+          "https://example.com/calcium4.jpg"
+        ],
+        "price": 21.99,
+        "availability": true,
+        "description": "Forever Calcium delivers calcium, magnesium, and vitamin D. Promotes strong bones and teeth. Essential for overall skeletal health."
+      },
+      {
+        "name": "Tooth Gel",
+        "images": [
+          "https://example.com/tooth-gel1.jpg",
+          "https://example.com/tooth-gel2.jpg",
+          "https://example.com/tooth-gel3.jpg",
+          "https://example.com/tooth-gel4.jpg"
+        ],
+        "price": 8.99,
+        "availability": true,
+        "description": "Aloe-based Tooth Gel for a clean, fresh mouth. Gentle on gums, tough on plaque. Leaves your breath minty fresh."
+      },
+      {
+        "name": "Vitolize Men",
+        "images": [
+          "https://example.com/vitolize-men1.jpg",
+          "https://example.com/vitolize-men2.jpg",
+          "https://example.com/vitolize-men3.jpg",
+          "https://example.com/vitolize-men4.jpg"
+        ],
+        "price": 27.99,
+        "availability": true,
+        "description": "Vitolize Men supports prostate health and hormone balance. Rich in vitamins and antioxidants. Promotes overall well-being and vitality."
+      },
+      {
+        "name": "Vitolize Women",
+        "images": [
+          "https://example.com/vitolize-women1.jpg",
+          "https://example.com/vitolize-women2.jpg",
+          "https://example.com/vitolize-women3.jpg",
+          "https://example.com/vitolize-women4.jpg"
+        ],
+        "price": 27.99,
+        "availability": true,
+        "description": "Vitolize Women supports hormone balance and overall health. Contains essential vitamins and minerals. Enhances energy and well-being."
+      }
+    ]
+  }
+  
