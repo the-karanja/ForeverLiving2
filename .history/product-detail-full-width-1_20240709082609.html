@@ -465,9 +465,7 @@
         "name": "Tooth Gel",
         "images": [
 			"https://pin.it/4N4wdMYWG",
-			"https://pin.it/4N4wdMYWG",
-			"https://pin.it/4N4wdMYWG",
-			"https://pin.it/4N4wdMYWG"
+			
           ],
         "price": 8.99,
         "availability": true,
@@ -634,24 +632,51 @@ function renderProductDetail() {
                         </div>
                         <div class="product-right col-md-5 col-sm-4 col-xs-12">
                             <div class="product-info">
-                               
-								
-                               
+                                <div class="product-price">
+                                    <span class="sale-price">$${product.price.toFixed(2)}</span>
+                                </div>
+                                <div class="product-stock">
+                                    <span class="availability">Availability :</span>
+                                    <i class="fa fa-check-square-o" aria-hidden="true"></i> ${product.availability ? 'In stock' : 'Out of stock'}
+                                </div>
                                 <div class="product-short-description">
                                     ${product.description}
                                 </div>
                                 <div class="product-add-to-cart border-bottom">
-                                   
+                                    <div class="product-quantity">
+                                        <span class="control-label">QTY :</span>
+                                        <div class="qty">
+                                            <div class="input-group">
+                                                <input type="text" name="qty" value="1" data-min="1">
+                                                <span class="adjust-qty">
+                                                    <span class="adjust-btn plus">+</span>
+                                                    <span class="adjust-btn minus">-</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
                                      <div class="product-buttons">
                 
-              
+                <a class="add-wishlist" href="#">
+                    <i class="fa fa-heart" aria-hidden="true"></i>                                                
+                </a>
                 <a class="order-whatsapp" href="https://wa.link/0qh7jw?text=${encodeURIComponent('I ordered ' + product.name)}" target="_blank">
                     <i class="fa fa-whatsapp" aria-hidden="true"></i>
                     <span>Order on WhatsApp</span>
                 </a>
             </div>
                                 </div>
-                              
+                                <div class="product-share border-bottom">
+                                    <div class="item">
+                                        <a href="#"><i class="zmdi zmdi-share" aria-hidden="true"></i><span class="text">Share</span></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="#"><i class="zmdi zmdi-email" aria-hidden="true"></i><span class="text">Send to a friend</span></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="#"><i class="zmdi zmdi-print" aria-hidden="true"></i><span class="text">Print</span></a>
+                                    </div>
+                                </div>
                                 <div class="product-review border-bottom">
                                     <div class="item">
                                         <div class="product-quantity">
@@ -672,7 +697,19 @@ function renderProductDetail() {
                                         <a href="#"><i class="zmdi zmdi-edit" aria-hidden="true"></i><span class="text">Write a review</span></a>
                                     </div>
                                 </div>
-                               
+                                <div class="product-extra">
+                                    <div class="item">
+                                        <span class="control-label">SKU :</span><span class="control-label">E-02154</span>
+                                    </div>
+                                    <div class="item">
+                                        <span class="control-label">Categories :</span>
+                                        <a href="#" title="Category">Category1</a>, <a href="#" title="Category">Category2</a>
+                                    </div>
+                                    <div class="item">
+                                        <span class="control-label">Tags :</span>
+                                        <a href="#" title="Tag">Tag1</a>, <a href="#" title="Tag">Tag2</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="payment-intro col-md-3 col-sm-4 col-xs-12">

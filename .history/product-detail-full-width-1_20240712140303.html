@@ -636,7 +636,10 @@ function renderProductDetail() {
                             <div class="product-info">
                                
 								
-                               
+                                <div class="product-stock">
+                                    <span class="availability">Availability :</span>
+                                    <i class="fa fa-check-square-o" aria-hidden="true"></i> ${product.availability ? 'In stock' : 'Out of stock'}
+                                </div>
                                 <div class="product-short-description">
                                     ${product.description}
                                 </div>
